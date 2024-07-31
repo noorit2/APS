@@ -28,4 +28,4 @@ All details regarding different user account types, and web app pages can be vie
 - **Routing:** React Router
 
 ## Live Demo
-app demo deployed on <a href="bola-82857.web.app/" target="_blank">Demo</a>
+app demo deployed on <a href="https://bola-82857.web.app/" target="_blank">Demo</a>
