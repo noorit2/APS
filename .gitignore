@@ -1,0 +1,23 @@
+# Node modules directory
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Build directories
+dist/
+build/
+
+# Environment variables
+.env
+
+# MacOS system files
+.DS_Store
+
+# Ignore coverage results
+coverage/
+
+# Ignore dependency directories
+.pnp
+.pnp.js

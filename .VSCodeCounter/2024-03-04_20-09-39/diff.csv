@@ -1,0 +1,77 @@
+"filename", "language", "JavaScript", "JavaScript JSX", "CSS", "JSON", "XML", "comment", "blank", "total"
+"c:\Users\Lenovo\Desktop\aps\src\App.js", "JavaScript", 60, 0, 0, 0, 0, 0, 8, 68
+"c:\Users\Lenovo\Desktop\aps\src\components\MainPage\MainPage.js", "JavaScript", 114, 0, 0, 0, 0, 0, 5, 119
+"c:\Users\Lenovo\Desktop\aps\src\components\MainPage\MainPage.module.css", "CSS", 0, 0, 178, 0, 0, 0, 19, 197
+"c:\Users\Lenovo\Desktop\aps\src\components\MainPage\reshot-icon-right-arrow-UCA8NGYZDJ.svg", "XML", 0, 0, 0, 0, 1, 0, 0, 1
+"c:\Users\Lenovo\Desktop\aps\src\components\Notifications\Notifications.js", "JavaScript", 1, 0, 0, 0, 0, 0, 0, 1
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\CollegeProfile\AddStudent\AddStudent.css", "CSS", 0, 0, 271, 0, 0, 14, 15, 300
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\CollegeProfile\AddStudent\AddStudent.jsx", "JavaScript JSX", 0, 267, 0, 0, 0, 2, 4, 273
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\CollegeProfile\AddStudent\Button.jsx", "JavaScript JSX", 0, 20, 0, 0, 0, 0, 1, 21
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\CollegeProfile\AddStudent\Largeinput.jsx", "JavaScript JSX", 0, 19, 0, 0, 0, 0, 0, 19
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\CollegeProfile\AddStudent\SelectLevel.jsx", "JavaScript JSX", 0, 48, 0, 0, 0, 0, 3, 51
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\CollegeProfile\AddStudent\SelectProgram.jsx", "JavaScript JSX", 0, 111, 0, 0, 0, 0, 3, 114
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\CollegeProfile\AddStudent\SelectStep.jsx", "JavaScript JSX", 0, 21, 0, 0, 0, 0, 2, 23
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\CollegeProfile\AddStudent\Smallinput.jsx", "JavaScript JSX", 0, 19, 0, 0, 0, 0, 1, 20
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\CollegeProfile\AddStudent\Stepone.jsx", "JavaScript JSX", 0, 54, 0, 0, 0, 0, 0, 54
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\CollegeProfile\AddStudent\Steptwo.jsx", "JavaScript JSX", 0, 94, 0, 0, 0, 0, 12, 106
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\CollegeProfile\AddStudent\style.module.css", "CSS", 0, 0, 28, 0, 0, 0, 1, 29
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\CollegeProfile\StudentsTable\AddStudent.css", "CSS", 0, 0, 270, 0, 0, 14, 14, 298
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\CollegeProfile\StudentsTable\AddStudent.module.css", "CSS", 0, 0, 270, 0, 0, 14, 14, 298
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\CollegeProfile\StudentsTable\ChangeUsername.module.css", "CSS", 0, 0, 69, 0, 0, 0, 4, 73
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\CollegeProfile\StudentsTable\Changeusername.jsx", "JavaScript JSX", 0, 129, 0, 0, 0, 0, 3, 132
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\CollegeProfile\StudentsTable\EditStudent.css", "CSS", 0, 0, 52, 0, 0, 1, 8, 61
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\CollegeProfile\StudentsTable\EditStudent.jsx", "JavaScript JSX", 0, 226, 0, 0, 0, 2, 6, 234
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\CollegeProfile\StudentsTable\Options.js", "JavaScript", 29, 0, 0, 0, 0, 0, 2, 31
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\CollegeProfile\StudentsTable\Options.module.css", "CSS", 0, 0, 36, 0, 0, 0, 2, 38
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\CollegeProfile\StudentsTable\SelectLevel.jsx", "JavaScript JSX", 0, 48, 0, 0, 0, 0, 4, 52
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\CollegeProfile\StudentsTable\SelectProgram.jsx", "JavaScript JSX", 0, 110, 0, 0, 0, 0, 6, 116
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\CollegeProfile\StudentsTable\StudentsTable.jsx", "JavaScript JSX", 0, 182, 0, 0, 0, 1, 8, 191
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\CollegeProfile\StudentsTable\StudentsTable.module.css", "CSS", 0, 0, 42, 0, 0, 0, 0, 42
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\DepartmentProfile.module.css", "CSS", 0, 0, 5, 0, 0, 0, 0, 5
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\Exam\AddCommite.js", "JavaScript", 125, 0, 0, 0, 0, 0, 3, 128
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\Exam\AddExam.js", "JavaScript", 151, 0, 0, 0, 0, 0, 1, 152
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\Exam\CommitteMembers.js", "JavaScript", 235, 0, 0, 0, 0, 3, 2, 240
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\Exam\ExamComitte.js", "JavaScript", 296, 0, 0, 0, 0, 1, 6, 303
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\Exam\Exams.js", "JavaScript", 177, 0, 0, 0, 0, 1, 2, 180
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\Exam\Grades.js", "JavaScript", 328, 0, 0, 0, 0, 2, 18, 348
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\Exam\temp.js", "JavaScript", 217, 0, 0, 0, 0, 0, 19, 236
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\Proffessor\AddProffessor.js", "JavaScript", -4, 0, 0, 0, 0, 5, 0, 1
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\Proffessor\PrefessorTable.js", "JavaScript", 0, 0, 0, 0, 0, 0, -2, -2
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\Programs\BachelorFive.jsx", "JavaScript JSX", 0, 51, 0, 0, 0, 0, 1, 52
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\Programs\BachelorFour.js", "JavaScript", -26, 0, 0, 0, 0, -13, -4, -43
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\Programs\DisplayLevels.js", "JavaScript", 11, 0, 0, 0, 0, 0, 2, 13
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\Programs\HOC.jsx", "JavaScript JSX", 0, 48, 0, 0, 0, 0, 1, 49
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\Programs\PreviewBachelor.js", "JavaScript", -1, 0, 0, 0, 0, 0, 0, -1
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\Programs\ProgramManage.js", "JavaScript", 33, 0, 0, 0, 0, 4, -2, 35
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\Programs\Speciality.js", "JavaScript", 0, 0, 0, 0, 0, 0, -2, -2
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\Programs\add_program_module\AddProgramModule.js", "JavaScript", 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\Programs\add_program_module\ModuleInfo.js", "JavaScript", 1, 0, 0, 0, 0, 0, 0, 1
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\schedule\AddScheduling.js", "JavaScript", 339, 0, 0, 0, 0, 4, 13, 356
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\schedule\Schedule.js", "JavaScript", 378, 0, 0, 0, 0, 3, 7, 388
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\schedule\ScheduleTable.js", "JavaScript", 169, 0, 0, 0, 0, 1, 6, 176
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\StudentProfile\Home\Home.js", "JavaScript", 135, 0, 0, 0, 0, 1, 5, 141
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\StudentProfile\Home\InfoCards.js", "JavaScript", 61, 0, 0, 0, 0, 0, 1, 62
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\StudentProfile\Home\Posts.js", "JavaScript", 45, 0, 0, 0, 0, 0, 1, 46
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\StudentProfile\Home\StudentCalendar.js", "JavaScript", 111, 0, 0, 0, 0, 0, 6, 117
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\StudentProfile\Home\TodaySchedule.js", "JavaScript", 110, 0, 0, 0, 0, 0, 2, 112
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\StudentProfile\Home\UpcomingClasses.js", "JavaScript", 55, 0, 0, 0, 0, 0, 4, 59
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\StudentProfile\Modules\StudentModules.js", "JavaScript", 148, 0, 0, 0, 0, 2, 2, 152
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\StudentProfile\Modules\ViewGrade.js", "JavaScript", 81, 0, 0, 0, 0, 0, 2, 83
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\StudentProfile\Modules\ViewModule.js", "JavaScript", 359, 0, 0, 0, 0, 0, 8, 367
+"c:\Users\Lenovo\Desktop\aps\src\components\Profiles\UniversityProfile\EditProfile.js", "JavaScript", 12, 0, 0, 0, 0, 0, 1, 13
+"c:\Users\Lenovo\Desktop\aps\src\components\UI\Confirm\Confirm.js", "JavaScript", 46, 0, 0, 0, 0, 0, 2, 48
+"c:\Users\Lenovo\Desktop\aps\src\components\UI\Form\ReactSelect.jsx", "JavaScript JSX", 0, 35, 0, 0, 0, 0, 1, 36
+"c:\Users\Lenovo\Desktop\aps\src\components\login\Login.js", "JavaScript", 11, 0, 0, 0, 0, 0, 3, 14
+"c:\Users\Lenovo\Desktop\aps\src\components\navbar\Navbar.js", "JavaScript", 35, 0, 0, 0, 0, 0, 3, 38
+"c:\Users\Lenovo\Desktop\aps\src\components\navbar\Navbar.module.css", "CSS", 0, 0, 88, 0, 0, 0, 7, 95
+"c:\Users\Lenovo\Desktop\aps\src\components\universityAccounts\UniversityAccounts.js", "JavaScript", 38, 0, 0, 0, 0, 0, 5, 43
+"c:\Users\Lenovo\Desktop\aps\src\hooks\usePaginationFetch.jsx", "JavaScript JSX", 0, -3, 0, 0, 0, 0, -2, -5
+"c:\Users\Lenovo\Desktop\aps\src\index.css", "CSS", 0, 0, 3, 0, 0, 0, 0, 3
+"c:\Users\Lenovo\Desktop\aps\src\index.js", "JavaScript", 7, 0, 0, 0, 0, 0, -1, 6
+"c:\Users\Lenovo\Desktop\aps\src\package.json", "JSON", 0, 0, 0, 58, 0, 0, 1, 59
+"c:\Users\Lenovo\Desktop\aps\src\store\Schedule-slice.js", "JavaScript", 29, 0, 0, 0, 0, 0, 1, 30
+"c:\Users\Lenovo\Desktop\aps\src\store\auth-slice.js", "JavaScript", 43, 0, 0, 0, 0, 0, 0, 43
+"c:\Users\Lenovo\Desktop\aps\src\store\fire.jsx", "JavaScript JSX", 0, 47, 0, 0, 0, 1, 1, 49
+"c:\Users\Lenovo\Desktop\aps\src\store\getandset.js", "JavaScript", 123, 0, 0, 0, 0, 2, 7, 132
+"c:\Users\Lenovo\Desktop\aps\src\store\index.js", "JavaScript", 7, 0, 0, 0, 0, 0, 1, 8
+"Total", "-", 4089, 1526, 1312, 58, 1, 65, 278, 7329

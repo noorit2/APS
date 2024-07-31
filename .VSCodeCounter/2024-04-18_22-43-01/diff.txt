@@ -1,0 +1,128 @@
+Date : 2024-04-18 22:43:01
+Directory : c:\Users\Lenovo\Desktop\aps\src
+Total : 69 files,  5213 codes, 28 comments, 245 blanks, all 5486 lines
+
+Languages
++----------------+------------+------------+------------+------------+------------+
+| language       | files      | code       | comment    | blank      | total      |
++----------------+------------+------------+------------+------------+------------+
+| JavaScript     |         54 |      5,134 |         28 |        240 |      5,402 |
+| CSS            |         13 |         57 |          0 |          6 |         63 |
+| JavaScript JSX |          2 |         22 |          0 |         -1 |         21 |
++----------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                          | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                             |         69 |      5,213 |         28 |        245 |      5,486 |
+| . (Files)                                                                                                                     |          1 |         49 |          0 |          2 |         51 |
+| components                                                                                                                    |         64 |      4,915 |         28 |        229 |      5,172 |
+| components (Files)                                                                                                            |          1 |         31 |          0 |          3 |         34 |
+| components\MainPage                                                                                                           |          1 |         -4 |          0 |          1 |         -3 |
+| components\Profiles                                                                                                           |         59 |      4,859 |         28 |        225 |      5,112 |
+| components\Profiles\CollegeProfile                                                                                            |          6 |         98 |          2 |          1 |        101 |
+| components\Profiles\CollegeProfile (Files)                                                                                    |          2 |         82 |          2 |          2 |         86 |
+| components\Profiles\CollegeProfile\AddStudent                                                                                 |          2 |        -11 |          0 |          0 |        -11 |
+| components\Profiles\CollegeProfile\StudentsTable                                                                              |          2 |         27 |          0 |         -1 |         26 |
+| components\Profiles\DepartmentProfile                                                                                         |         32 |      1,990 |         14 |        103 |      2,107 |
+| components\Profiles\DepartmentProfile (Files)                                                                                 |          5 |        455 |          3 |         18 |        476 |
+| components\Profiles\DepartmentProfile\Classrooms                                                                              |          3 |        -10 |          0 |          2 |         -8 |
+| components\Profiles\DepartmentProfile\Divisions                                                                               |          3 |        468 |          1 |         27 |        496 |
+| components\Profiles\DepartmentProfile\Exam                                                                                    |          3 |        138 |          0 |         15 |        153 |
+| components\Profiles\DepartmentProfile\Proffessor                                                                              |          4 |        395 |          8 |         23 |        426 |
+| components\Profiles\DepartmentProfile\Programs                                                                                |         11 |        500 |          2 |         14 |        516 |
+| components\Profiles\DepartmentProfile\Programs (Files)                                                                        |          5 |         78 |          0 |          2 |         80 |
+| components\Profiles\DepartmentProfile\Programs\ProgramModules                                                                 |          1 |        184 |          1 |          7 |        192 |
+| components\Profiles\DepartmentProfile\Programs\add_program_module                                                             |          5 |        238 |          1 |          5 |        244 |
+| components\Profiles\DepartmentProfile\schedule                                                                                |          3 |         44 |          0 |          4 |         48 |
+| components\Profiles\ProfessorProfile                                                                                          |          8 |      1,459 |          4 |         82 |      1,545 |
+| components\Profiles\ProfessorProfile (Files)                                                                                  |          4 |        982 |          1 |         63 |      1,046 |
+| components\Profiles\ProfessorProfile\Home                                                                                     |          1 |         78 |          1 |          2 |         81 |
+| components\Profiles\ProfessorProfile\Modules                                                                                  |          3 |        399 |          2 |         17 |        418 |
+| components\Profiles\StudentProfile                                                                                            |          9 |      1,151 |          3 |         37 |      1,191 |
+| components\Profiles\StudentProfile (Files)                                                                                    |          6 |      1,043 |          3 |         32 |      1,078 |
+| components\Profiles\StudentProfile\Home                                                                                       |          1 |         -1 |          0 |          0 |         -1 |
+| components\Profiles\StudentProfile\Modules                                                                                    |          2 |        109 |          0 |          5 |        114 |
+| components\Profiles\UniversityProfile                                                                                         |          3 |         16 |          4 |          0 |         20 |
+| components\Profiles\library                                                                                                   |          1 |        145 |          1 |          2 |        148 |
+| components\navbar                                                                                                             |          2 |         30 |          0 |          0 |         30 |
+| components\universityAccounts                                                                                                 |          1 |         -1 |          0 |          0 |         -1 |
+| store                                                                                                                         |          4 |        249 |          0 |         14 |        263 |
++-------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| filename                                                                                                                      | language       | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| c:\Users\Lenovo\Desktop\aps\src\App.js                                                                                        | JavaScript     |         49 |          0 |          2 |         51 |
+| c:\Users\Lenovo\Desktop\aps\src\components\MainPage\MainPage.js                                                               | JavaScript     |         -4 |          0 |          1 |         -3 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\CollegeProfile\AddStudent\AddStudent.css                                  | CSS            |        -10 |          0 |          0 |        -10 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\CollegeProfile\AddStudent\AddStudent.jsx                                  | JavaScript JSX |         -1 |          0 |          0 |         -1 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\CollegeProfile\CollegeProfile.js                                          | JavaScript     |         69 |          2 |          1 |         72 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\CollegeProfile\CollegeProfile.module.css                                  | CSS            |         13 |          0 |          1 |         14 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\CollegeProfile\StudentsTable\EditStudent.css                              | CSS            |          4 |          0 |          0 |          4 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\CollegeProfile\StudentsTable\StudentsTable.jsx                            | JavaScript JSX |         23 |          0 |         -1 |         22 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\AddPost.js                                              | JavaScript     |         88 |          0 |          1 |         89 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\Classrooms\AddClass.js                                  | JavaScript     |         12 |          0 |          0 |         12 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\Classrooms\ClassroomsTable.js                           | JavaScript     |         -1 |          0 |          1 |          0 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\Classrooms\ClassroomsTable.module.css                   | CSS            |        -21 |          0 |          1 |        -20 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\DepartmentProfile.js                                    | JavaScript     |         68 |          2 |          1 |         71 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\DepartmentProfile.module.css                            | CSS            |          4 |          0 |          1 |          5 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\Divisions\AddDivision.js                                | JavaScript     |         56 |          0 |          1 |         57 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\Divisions\AddStudentsDivision.js                        | JavaScript     |         97 |          0 |          1 |         98 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\Divisions\Divsion.js                                    | JavaScript     |        315 |          1 |         25 |        341 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\Exam\AddCommite.js                                      | JavaScript     |         28 |          0 |          1 |         29 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\Exam\AddExam.js                                         | JavaScript     |         16 |          0 |          1 |         17 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\Exam\Exams.js                                           | JavaScript     |         94 |          0 |         13 |        107 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\Modules.module.css                                      | CSS            |          0 |          0 |         -1 |         -1 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\Proffessor\AddProffessor.js                             | JavaScript     |          9 |         -5 |         -1 |          3 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\Proffessor\AddProffessor.module.css                     | CSS            |         11 |          0 |         -1 |         10 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\Proffessor\EditProfessor.js                             | JavaScript     |        342 |         13 |         27 |        382 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\Proffessor\PrefessorTable.js                            | JavaScript     |         33 |          0 |         -2 |         31 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\Programs\AddProgram.js                                  | JavaScript     |         43 |          0 |         -1 |         42 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\Programs\AddProgram.module.css                          | CSS            |          4 |          0 |          0 |          4 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\Programs\PreviewBachelor.js                             | JavaScript     |          5 |          0 |          1 |          6 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\Programs\PreviewBachelor.module.css                     | CSS            |          1 |          0 |         -1 |          0 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\Programs\ProgramModules\ProgramModulesTable.js          | JavaScript     |        184 |          1 |          7 |        192 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\Programs\Speciality.js                                  | JavaScript     |         25 |          0 |          3 |         28 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\Programs\add_program_module\AddProgramModule.js         | JavaScript     |         15 |          0 |         -1 |         14 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\Programs\add_program_module\AddProgramModule.module.css | CSS            |        -26 |          0 |          3 |        -23 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\Programs\add_program_module\EditProgramModule.js        | JavaScript     |        232 |          1 |          3 |        236 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\Programs\add_program_module\ModuleAssesment.js          | JavaScript     |         12 |          0 |          0 |         12 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\Programs\add_program_module\ModuleInfo.js               | JavaScript     |          5 |          0 |          0 |          5 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\StudentsModuleRegisteration.js                          | JavaScript     |        295 |          1 |         16 |        312 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\schedule\AddScheduling.js                               | JavaScript     |         25 |          0 |          0 |         25 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\schedule\Schedule.js                                    | JavaScript     |         18 |          0 |          4 |         22 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\DepartmentProfile\schedule\ScheduleTable.js                               | JavaScript     |          1 |          0 |          0 |          1 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\ProfessorProfile\AddAssesments.js                                         | JavaScript     |        250 |          0 |          6 |        256 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\ProfessorProfile\AssesmentGradesTable.js                                  | JavaScript     |        203 |          0 |         23 |        226 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\ProfessorProfile\Assesments.js                                            | JavaScript     |        167 |          0 |          5 |        172 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\ProfessorProfile\Home\ProfessorHome.js                                    | JavaScript     |         78 |          1 |          2 |         81 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\ProfessorProfile\Modules\ModuleStudents.js                                | JavaScript     |        127 |          0 |          9 |        136 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\ProfessorProfile\Modules\ProfessorModules.js                              | JavaScript     |        144 |          2 |          2 |        148 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\ProfessorProfile\Modules\StudentGrades.js                                 | JavaScript     |        128 |          0 |          6 |        134 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\ProfessorProfile\StudentsAttendance.js                                    | JavaScript     |        362 |          1 |         29 |        392 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\StudentProfile\EditProfile.js                                             | JavaScript     |        225 |          1 |          4 |        230 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\StudentProfile\EditProfile.module.css                                     | CSS            |         73 |          0 |          3 |         76 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\StudentProfile\Home\StudentCalendar.js                                    | JavaScript     |         -1 |          0 |          0 |         -1 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\StudentProfile\ModulesRegisteration.js                                    | JavaScript     |        319 |          2 |         10 |        331 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\StudentProfile\Modules\ModuleAttendance.js                                | JavaScript     |        107 |          0 |          6 |        113 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\StudentProfile\Modules\ViewModule.js                                      | JavaScript     |          2 |          0 |         -1 |          1 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\StudentProfile\PresenceTable.js                                           | JavaScript     |         65 |          0 |          3 |         68 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\StudentProfile\StudentPresence.js                                         | JavaScript     |        243 |          0 |          7 |        250 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\StudentProfile\StudentProfile.js                                          | JavaScript     |        118 |          0 |          5 |        123 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\UniversityProfile\AboutComponent.js                                       | JavaScript     |         18 |          2 |          0 |         20 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\UniversityProfile\UniversityProfile.js                                    | JavaScript     |          1 |          2 |          0 |          3 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\UniversityProfile\UniversityProfile.module.css                            | CSS            |         -3 |          0 |          0 |         -3 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Profiles\library\Library.js                                                        | JavaScript     |        145 |          1 |          2 |        148 |
+| c:\Users\Lenovo\Desktop\aps\src\components\Root.js                                                                            | JavaScript     |         31 |          0 |          3 |         34 |
+| c:\Users\Lenovo\Desktop\aps\src\components\navbar\Navbar.js                                                                   | JavaScript     |         23 |          0 |          0 |         23 |
+| c:\Users\Lenovo\Desktop\aps\src\components\navbar\Navbar.module.css                                                           | CSS            |          7 |          0 |          0 |          7 |
+| c:\Users\Lenovo\Desktop\aps\src\components\universityAccounts\UniversityAccounts.js                                           | JavaScript     |         -1 |          0 |          0 |         -1 |
+| c:\Users\Lenovo\Desktop\aps\src\store\auth-slice.js                                                                           | JavaScript     |         79 |          0 |          2 |         81 |
+| c:\Users\Lenovo\Desktop\aps\src\store\getandset.js                                                                            | JavaScript     |        138 |          0 |         11 |        149 |
+| c:\Users\Lenovo\Desktop\aps\src\store\index.js                                                                                | JavaScript     |          2 |          0 |          0 |          2 |
+| c:\Users\Lenovo\Desktop\aps\src\store\message-slice.js                                                                        | JavaScript     |         30 |          0 |          1 |         31 |
+| Total                                                                                                                         |                |      5,213 |         28 |        245 |      5,486 |
++-------------------------------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
