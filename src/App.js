@@ -3,7 +3,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 
-import { AppRoutes } from "./utils/AppRoutes.js";
+import { AppRoutes } from "./routes/AppRoutes.js";
 
 function App() {
   const router = createBrowserRouter(

@@ -1,62 +1,57 @@
-import MainPage from "./components/MainPage/MainPage.js";
-import Root from "./components/Root.js";
-import Login from "./components/login/Login.js";
-import Error from "./components/Error.js";
-import UniversityProfile from "./components/Profiles/UniversityProfile/UniversityProfile.js";
-import { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import UniversityAccounts from "./components/universityAccounts/UniversityAccounts.js";
-import { onAuthStateChanged } from "firebase/auth";
-import { auth, getprofile } from "./store/fire.jsx";
-import { onLogin, selectUid, useUid } from "./store/auth-slice.js";
-import CollegeProfile from "./components/Profiles/CollegeProfile/CollegeProfile.js";
-import DepartmentProfile from "./components/Profiles/DepartmentProfile/DepartmentProfile.js";
-import AddNewModule from "./components/Profiles/DepartmentProfile/Modules_s/AddNewModule.js";
-import ModulesTable from "./components/Profiles/DepartmentProfile/Modules_s/ModulesTable.js";
-import EditModule from "./components/Profiles/DepartmentProfile/Modules_s/EditModule.js";
-import AddProffessor from "./components/Profiles/DepartmentProfile/Proffessor/AddProffessor.js";
-import ProgramManage from "./components/Profiles/DepartmentProfile/Programs/ProgramManage.js";
-import ProfessorTable from "./components/Profiles/DepartmentProfile/Proffessor/PrefessorTable.js";
-import ClassroomsTable from "./components/Profiles/DepartmentProfile/Classrooms/ClassroomsTable.js";
-import Notifications from "./components/Notifications/Notifications.js";
-import ProgramModulesTable from "./components/Profiles/DepartmentProfile/Programs/ProgramModules/ProgramModulesTable.js";
-import AddProgramModule from "./components/Profiles/DepartmentProfile/Programs/add_program_module/AddProgramModule.js"
-import AddStudent from "./components/Profiles/CollegeProfile/AddStudent/AddStudent.jsx";
-import StudentsTable from "./components/Profiles/CollegeProfile/StudentsTable/StudentsTable.jsx";
-import EditStudent from "./components/Profiles/CollegeProfile/StudentsTable/EditStudent.jsx";
-import { QueryClientProvider, QueryClient } from "react-query";
-import {ReactQueryDevtools } from "react-query/devtools";
-import Grades from "./components/Profiles/DepartmentProfile/Exam/Grades.js";
-import Exams from "./components/Profiles/DepartmentProfile/Exam/Exams.js";
-import Home from "./components/Profiles/StudentProfile/Home/Home.js";
-import ExamComitte from "./components/Profiles/DepartmentProfile/Exam/ExamComitte.js";
-import Schedule from "./components/Profiles/DepartmentProfile/schedule/Schedule.js";
-import StudentModules from "./components/Profiles/StudentProfile/Modules/StudentModules.js";
-import ModulesRegisteration from "./components/Profiles/StudentProfile/ModulesRegisteration.js";
-import StudentPrecense from "./components/Profiles/StudentProfile/StudentPresence.js";
-import StudentProfile from "./components/Profiles/StudentProfile/StudentProfile.js";
-import Assesments from "./components/Profiles/ProfessorProfile/Assesments.js";
-import ProfessorModules from "./components/Profiles/ProfessorProfile/Modules/ProfessorModules.js";
-import StudentsAttendance from "./components/Profiles/ProfessorProfile/StudentsAttendance.js";
-import ProfessorHome from "./components/Profiles/ProfessorProfile/Home/ProfessorHome.js";
-import Divsions from "./components/Profiles/DepartmentProfile/Divisions/Divsion.js";
-import Library from "./components/Profiles/library/Library.js";
-import StudentsModuleRegisteration from "./components/Profiles/DepartmentProfile/StudentsModuleRegisteration.js";
-import ProfessorProfile from "./components/Profiles/ProfessorProfile/ProfessorProfile.js";
-import ViewDepartmentProfile from "./components/Profiles/DepartmentProfile/ViewDepartmentProfile.js";
-import DepartmentStudentsAttendance from "./components/Profiles/DepartmentProfile/Students/DepatmentStudentsAttendance.js";
-import DepartmentStudentsGrades from "./components/Profiles/DepartmentProfile/Students/DepartmentStudentsGrades.js";
-import ProfessorCommitte from "./components/Profiles/DepartmentProfile/Proffessor/ProfessorCommitte.js";
-import StudentAdvancment from "./components/Profiles/DepartmentProfile/Students/StudentAdvancement.js";
-import ViewCollegeProfile from "./components/Profiles/CollegeProfile/ViewCollegeProfile.js";
-import ViewUniversityProfile from "./components/Profiles/UniversityProfile/ViewUniversityProfile.js";
-import ViewProfessorProfile from "./components/Profiles/ProfessorProfile/ViewProfessorProfile.js";
-import ViewStudentProfile from "./components/Profiles/StudentProfile/ViewStudentProfile.js";
-import Changeusername from "./components/Profiles/CollegeProfile/StudentsTable/Changeusername.jsx";
+import Root from '../views/components/Root';
+import Error from '../views/components/Error';
+import MainPage from '../views/MainPage';
+import Login from '../views/LoginPage/Login';
+import UniversityProfile from '../views/Profiles/UniversityProfile';
+import UniversityAccounts from '../views/Universities/components/UniversityAccounts'; // Assuming the path is correct
+import CollegeProfile from '../views/Profiles/CollegeProfile/CollegeProfile';
+import DepartmentProfile from '../views/Profiles/DepartmentProfile/DepartmentProfile';
+import AddNewModule from '../views/LibraryPage/modules/AddNewModule';
+import AddProffessor from '../views/LibraryPage/modules/AddProffessor';
+import ModulesTable from '../views/LibraryPage/modules/ModulesTable';
+import EditModule from '../views/LibraryPage/modules/EditModule';
+import ProgramManage from '../views/LibraryPage/modules/ProgramManage';
+import ProfessorTable from '../views/LibraryPage/modules/ProfessorTable';
+import ClassroomsTable from '../views/LibraryPage/modules/ClassroomsTable';
+import Notifications from '../views/NotificationsPage/Notifications';
+import ProgramModulesTable from '../views/LibraryPage/modules/ProgramModulesTable';
+import AddProgramModule from '../views/LibraryPage/modules/AddProgramModule';
+import AddStudent from '../views/Profiles/CollegeProfile/AddStudent';
+import StudentsTable from '../views/Profiles/CollegeProfile/StudentsTable';
+import EditStudent from '../views/Profiles/CollegeProfile/EditStudent';
+import Schedule from '../views/DepartmentProfile/schedule/Schedule';
+import ExamComitte from '../views/DepartmentProfile/Exam/ExamComitte';
+import Exams from '../views/DepartmentProfile/Exam/Exams';
+import Grades from '../views/DepartmentProfile/Exam/Grades';
+import Home from '../views/ProfessorProfile/Home/Home';
+import StudentModules from '../views/StudentProfile/Modules/StudentModules';
+import ModulesRegisteration from '../views/StudentProfile/Modules/ModulesRegisteration';
+import StudentPrecense from '../views/StudentProfile/StudentPresence/StudentPrecense';
+import StudentProfile from '../views/StudentProfile/StudentProfile';
+import Assesments from '../views/StudentProfile/Assesments/Assesments';
+import ProfessorModules from '../views/ProfessorProfile/Modules/ProfessorModules';
+import ProfessorHome from '../views/ProfessorProfile/Home/ProfessorHome';
+import StudentsAttendance from '../views/ProfessorProfile/StudentsAttendance/StudentsAttendance';
+import Divsions from '../views/DepartmentProfile/Divisions/Divsions';
+import Library from '../views/LibraryPage/Library';
+import StudentsModuleRegisteration from '../views/StudentProfile/Modules/StudentsModuleRegisteration';
+import ProfessorProfile from '../views/ProfessorProfile/ProfessorProfile';
+import ViewDepartmentProfile from '../views/Profiles/DepartmentProfile/ViewDepartmentProfile';
+import DepartmentStudentsAttendance from '../views/DepartmentProfile/Students/DepartmentStudentsAttendance';
+import DepartmentStudentsGrades from '../views/DepartmentProfile/Students/DepartmentStudentsGrades';
+import ProfessorCommitte from '../views/DepartmentProfile/Committe/ProfessorCommitte';
+import StudentAdvancment from '../views/StudentProfile/StudentAdvancment';
+import ViewCollegeProfile from '../views/Profiles/CollegeProfile/ViewCollegeProfile';
+import ViewUniversityProfile from '../views/Profiles/UniversityProfile/ViewUniversityProfile';
+import ViewProfessorProfile from '../views/Profiles/ProfessorProfile/ViewProfessorProfile';
+import ViewStudentProfile from '../views/Profiles/StudentProfile/ViewStudentProfile';
+import Changeusername from '../views/Profiles/ChangeUsername/Changeusername';
+
+
 export const AppRoutes= [
     {
       path: "/",
-      element: <Root />,
+      element: <Root/>,
       errorElement: <Error />,
       children: [
         {

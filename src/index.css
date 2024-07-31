@@ -3,11 +3,11 @@
 }
 @font-face {
   font-family:Graphik ;
-  src: url(./Fonts/GraphikMedium.otf);
+  src: url(./assets/Fonts/GraphikMedium.otf);
 }
 @font-face {
   font-family: GraphikLight;
-  src: url(./Fonts/GraphikLight.otf);
+  src: url(./assets/Fonts/GraphikLight.otf);
 }
 h1,h2,h3,h4,h5{
 font-family: Graphik;
