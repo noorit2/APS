@@ -26,3 +26,6 @@ All details regarding different user account types, and web app pages can be vie
 - **Backend:** Firebase, Node.js
 - **State Management:** React Redux, React Query
 - **Routing:** React Router
+
+## Live Demo
+app demo deployed on <a href="bola-82857.web.app/" target="_blank">Demo</a>
