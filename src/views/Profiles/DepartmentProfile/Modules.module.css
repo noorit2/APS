@@ -1,0 +1,49 @@
+.modulesList{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap:1.4rem;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 1rem;
+}
+.modulesList > li:first-child{
+    color:var(--styling1);
+    border:1px solid var(--styling1);
+    width: 80%;
+    min-height: 4rem;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.backDrop{
+    height: 100vh;
+    width: 100vw;
+    top:0;
+    background-color: #929394;
+    opacity: 0.6;
+    z-index: 12;
+    position: absolute;
+    position: fixed;
+}
+.addLevel{
+    display: none;
+}
+.addLevel.active{
+    display:block;
+    position: fixed;
+    z-index: 15;
+    width: 100vw;
+    border-radius: 10rem;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%,-50%);
+    width: 100vw;
+    max-width: 35rem; 
+    padding:0 3rem 0 3rem;
+}

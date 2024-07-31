@@ -1,0 +1,64 @@
+
+ 
+
+
+.mylist{
+ list-style: none;
+ display: flex;
+ padding-left: 10px;
+ padding-top: 0.4rem;
+ gap: 0.4rem;
+ align-items: flex-start;
+}
+.mylist li {
+ margin: 0px;
+  color: #4A8BDF;
+  /* Add a border with a specific color */
+  margin: 0px;
+}
+.mylist li{
+ cursor: pointer;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ padding: 0.2rem;
+font-family: "GraphikLight";
+ }
+ .blue-border {
+  border-bottom: 2px solid #4A8BDF;
+  width: 100%;
+ transition: all 0.2s;
+ margin-top: 0.2rem;
+}
+ .spancolor{
+color: red;
+margin-left: 5px;
+ }
+ .spanflex div{
+  color: red;
+  margin-left: 5px;
+  font-size: 0.9rem;
+  margin-left: 0.9rem;
+  margin-bottom: 0px;
+ }
+
+.spanreact{
+  margin-top: 0px;
+  gap: 0px;
+}
+.selectspan{
+  margin-left: 1rem;
+}
+.flexspan{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  height: 5rem;
+  gap: 1.4rem;
+}
+.buttonflex{
+ 
+}
+

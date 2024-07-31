@@ -1,0 +1,84 @@
+import React from 'react';
+import classes from './UniversityAccounts.module.css';
+import uob from '../../Images/profilePicutre.jpg';
+import search from '../../Images/search.png';
+import AddUniversity from './AddUniversity';
+import Loader from '../UI/Loader/Loader';
+import PlaceHolderLoader from '../UI/Loader/PlaceHolderLoader';
+import { useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
+import { useUniversityController } from './controllers/UniversityAccounts';
+
+const UniversityAccounts = () => {
+  const accountType = useSelector((state) => state.auth.accountType);
+  const {
+    university,
+    loading,
+    showAddUniversity,
+    searchValue,
+    searchChangeHandler,
+    updateUniversity,
+    last,
+    setShowAddUniversity,
+  } = useUniversityController(5, []);
+
+  if (loading) return <Loader />;
+
+  return (
+    <main className={classes.main}>
+      {accountType === 'Admin' && (
+        <div
+          className={`${classes.addUniversity} ${
+            showAddUniversity ? classes.active : ''
+          }`}
+        >
+          <AddUniversity updateUniversity={updateUniversity} />
+        </div>
+      )}
+      {showAddUniversity && (
+        <div className={classes.backDrop} onClick={() => setShowAddUniversity(false)} />
+      )}
+      {accountType === 'Admin' && (
+        <button
+          className={classes.addUniversityButton}
+          onClick={() => setShowAddUniversity(true)}
+        >
+          +
+        </button>
+      )}
+      <div className={classes.universities}>
+        <div className={classes.searchBar}>
+          <div>
+            <img src={search} alt="search" />
+          </div>
+          <input
+            type="text"
+            value={searchValue}
+            onChange={searchChangeHandler}
+            placeholder="search university..."
+          />
+        </div>
+        <ul>
+          {university.map((uni, index, arr) => (
+            <li
+              key={uni.id}
+              ref={index + 1 === Math.floor(arr.length / 2) ? last : null}
+            >
+              <img src={uni.img} alt="" />
+              <div>
+                <Link to={`/ViewUniversityProfile?id=${uni.id}`}>
+                  <p>{uni.name}</p>
+                </Link>
+                <span></span>
+                <br />
+              </div>
+            </li>
+          ))}
+          {loading && <PlaceHolderLoader />}
+        </ul>
+      </div>
+    </main>
+  );
+};
+
+export default UniversityAccounts;
